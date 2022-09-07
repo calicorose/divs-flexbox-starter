@@ -97,7 +97,7 @@ textarea {
 
 
 html {
-  background-color: rgb(60, 60, 60);
+  background-color: #3c3c3c;
   height: 100%;
 }
 
@@ -113,27 +113,57 @@ body {
   font-weight: 700;
   display: flex;
   justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
+
+header, footer {
+    background-color: #3c3c3c;
+    font-family: 'Permanent Marker', cursive;
+    color: #fff;
+    font-size: 2.5em;
+    height: 80px;
+    width: 100%;
+}
+
+main {
+    background-color: #3c3c3c;
+    color: slategray;
+    height: 250px;
+    width: 100%;
+    font-size: 1.5em;
+    font-weight: 500;
+    line-height: 2.0em;
+    border-bottom: 2px solid white;
+  }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
   font-size: 1em;
-  border: 5px solid rgb(60, 60, 60);
-  background-color: rgb(60, 60, 60);
+  background-color: #3c3c3c;
   height: 300px;
   display: flex;
   width: 30%;
   justify-content: center;
   align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .div-2 {
     border-left: 1px solid white;
     border-right: 1px solid white;
-    padding-left: 25px;
-    padding-right: 25px;
+}
+
+main span {
+    font-weight: bolder;
+}
+
+footer {
+    border-top: 2px solid white;
 }
 
 
